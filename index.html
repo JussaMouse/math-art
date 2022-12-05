@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Math-Art</title>
+  </head>
+  <style>
+    body {
+      background: #151515;
+      font-family: 'helvetica', sans-serif;
+    }
+
+    .titly {
+      margin-left: 50px;
+      margin-right: 50px;
+      color: #f00;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      font-size: 42px;
+      font-family: 'Helvetica Neue', sans-serif;
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: #ff0000;
+      -webkit-animation: animatedBackground_c 2s infinite alternate;
+    }
+
+    .heady {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-style: italic;
+      font-weight: bold;
+    }
+
+    .main {
+      margin-top: 50px;
+      margin-left: 100px;
+      margin-right: 100px;
+      color: #ef9c45;
+      font-family: 'Courier New', 'Courier', mono-space;
+      font-size: 20px;
+    }
+
+    .sec {
+      text-decoration: 'italic';
+      color: 'white';
+    }
+
+    @keyframes animatedBackground_c {
+      0% {
+        -webkit-text-stroke-color: #ff8b00;
+      }
+      10% {
+        -webkit-text-stroke-color: #e8ff00;
+      }
+      20% {
+        -webkit-text-stroke-color: #5dff00;
+      }
+      30% {
+        -webkit-text-stroke-color: #00ff2e;
+      }
+      40% {
+        -webkit-text-stroke-color: #00ffb9;
+      }
+      50% {
+        -webkit-text-stroke-color: #00b9ff;
+      }
+      60% {
+        -webkit-text-stroke-color: #002eff;
+      }
+      70% {
+        -webkit-text-stroke-color: #5d00ff;
+      }
+      80% {
+        -webkit-text-stroke-color: #e800ff;
+      }
+      90% {
+        -webkit-text-stroke-color: #ff008b;
+      }
+      100% {
+        -webkit-text-stroke-color: #ff0000;
+      }
+    }
+  </style>
+  <body>
+    <div class="heady">
+      <img
+        src="https://i.ibb.co/345c9VD/eth-pixel-logo-flip.png"
+        width="80"
+        alt="Ethereum logo"
+      />
+      <h1 class="titly">Math-Art</h1>
+      <img
+        src="https://i.ibb.co/BypcCpZ/eth-pixel-logo.png"
+        width="80"
+        alt="Ethereum logo"
+      />
+    </div>
+    <div class="main">
+      <span style="color: #ffda82; font-size: 30px">INTRO: </span>
+      <p>
+        Hi NEON DAO, I'm JussaMouse and this is my grant proposal. Let
+        me first give you a little background. I came to crypto about
+        a year ago for two reasons: the tech and the art. I have spent
+        most of my time here learning everything I can about Ethereum,
+        learning to code, and of course collecting NFTs. Within crypto
+        art I am most interested in the onchain narrative. Perhaps one
+        of the most interesting questions we can ask about art is
+        this: could this exist without the blockchain? What are the
+        works that are not only technically but conceptually
+        unthinkable Before Blockchain? Arguably the most prominent of
+        such works is <i>Terraforms by Mathcastles</i>.
+      </p>
+      <p>
+        As you may know, the <i>Terraforms</i> contract allows holders
+        to "paint" on their parcel (after performing the
+        non-reversible operation of putting the parcel into Daydream
+        mode). This is a powerful and groundbreaking statement by the
+        creators, but I digress. There is already lots of wonderful
+        art that holders have created with their parcels, like the
+        bonsai tree below. Though because most holders don't dare to
+        enter Daydream mode, the total number of these works is still
+        relatively small.
+      </p>
+      <p class="heady">
+        <img
+          src="https://i.ibb.co/PTNvBpC/6f539698-e715-4d7b-a470-2dfe7033ef17.gif"
+          width="300"
+          alt="bonsai painting"
+          style="justify-content: center"
+        />
+      </p>
+      <p style="margin-top: 50px"></p>
+      <span style="color: #ffda82; font-size: 30px">WHAT: </span>
+      <p>
+        The project I want to build, called Math-Art, is an online
+        gallery for Terraforms that have been painted on. There are a
+        few components I wish to include:
+      </p>
+      <ol>
+        <li>
+          some introductory material to explain the context and a
+          glossary of terms
+        </li>
+        <li>
+          a grid view for browsing paintings, sorted by recently
+          painted
+        </li>
+        <li>
+          an item view for each painting, with some attendant stats
+        </li>
+        <li>a list of all the artists addresses</li>
+      </ol>
+      <p>
+        Note that the contents of the gallery will be served directly
+        from the ETH contract, and that as changes are made to the
+        paintings, or new paintings are commited, the gallery will
+        self update. The stretch goal is to offer a historical view of
+        all past states, in the case of parcels that have been painted
+        and repainted. I am told by the devs that this is possible and
+        being worked on by others already.
+      </p>
+      <p style="margin-top: 50px"></p>
+      <span style="color: #ffda82; font-size: 30px">WHY: </span>
+      <p style="margin-bottom: 100px">
+        I view this grant as an opportunity to further my coding
+        education, and broaden the scope of my evangelizing. If you
+        choose to fund me, the grant money will go toward paying for
+        web hosting bills. I am jussamouse [at] gmail.com if anyone
+        wants to chat. Cheers.
+      </p>
+    </div>
+  </body>
+</html>
