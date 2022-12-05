@@ -1,2 +1,2 @@
-#Math-Art 
- gallery and playground
+#Math-Art
+gallery and playground
